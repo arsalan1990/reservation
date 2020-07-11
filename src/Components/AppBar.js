@@ -67,11 +67,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function BottomAppBar() {
   const classes = useStyles();
-  const [spacing, setSpacing] = React.useState(2);
+  const [spacing] = React.useState(2);
 
-  const handleChange = (event) => {
-    setSpacing(Number(event.target.value));
-  };
+  // const handleChange = (event) => {
+  //  setSpacing(Number(event.target.value));
+  //};
 
   return (
     <React.Fragment>
